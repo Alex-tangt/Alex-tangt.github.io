@@ -1,0 +1,265 @@
+# Butterfly Theme Configuration
+# Docs: https://butterfly.js.org/
+
+# --------------------------------------
+# Navigation Settings
+# --------------------------------------
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: false
+
+menu:
+  Home: / || fas fa-home
+  Archives: /archives/ || fas fa-archive
+  Tags: /tags/ || fas fa-tags
+  Categories: /categories/ || fas fa-folder
+  About: /about/ || fas fa-user
+
+# --------------------------------------
+# Social Links
+# --------------------------------------
+social:
+  fab fa-github: https://github.com/Alex-tangt || GitHub || '#24292e'
+  fas fa-envelope: mailto:your-email@gmail.com || Email || '#4a7dbe'
+  fas fa-rss: /atom.xml || RSS || '#f26522'
+
+# --------------------------------------
+# Image Settings
+# --------------------------------------
+favicon: /img/favicon.png
+avatar:
+  img: /img/avatar.png
+  effect: false
+
+disable_top_img: false
+default_top_img:
+
+# --------------------------------------
+# Post Meta
+# --------------------------------------
+post_meta:
+  page:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    position: left
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+# --------------------------------------
+# Index Page
+# --------------------------------------
+subtitle:
+  enable: true
+  effect: true
+  source: false
+  sub:
+    - Sharing thoughts on tech, code, and beyond
+    - 分享技术、代码与思考
+
+index_layout: 4
+index_post_content:
+  method: 3
+  length: 500
+
+# --------------------------------------
+# Post Settings
+# --------------------------------------
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+  scroll_percent: true
+
+post_copyright:
+  enable: true
+  decode: false
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+reward:
+  enable: false
+
+post_edit:
+  enable: false
+
+related_post:
+  enable: true
+  limit: 6
+  date_type: created
+
+post_pagination: 1
+
+noticeOutdate:
+  enable: true
+  style: flat
+  limit_day: 365
+  position: top
+
+# --------------------------------------
+# Footer Settings
+# --------------------------------------
+footer:
+  nav:
+  owner:
+    enable: true
+    since: 2026
+  copyright:
+    enable: true
+    version: true
+  custom_text:
+
+# --------------------------------------
+# Aside (Sidebar) Settings
+# --------------------------------------
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Alex-tangt
+  card_announcement:
+    enable: true
+    content: Welcome to my tech blog!
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 40
+    color: false
+    orderby: random
+    order: 1
+    sort_order:
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order:
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order:
+    runtime_date:
+
+# --------------------------------------
+# Bottom Right Buttons
+# --------------------------------------
+readmode: true
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+rightside_scroll_percent: false
+
+# --------------------------------------
+# Search
+# --------------------------------------
+search:
+  use: local_search
+  placeholder: Search...
+
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: false
+      hitsPerPage: 8
+
+# --------------------------------------
+# Word Count
+# --------------------------------------
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+# --------------------------------------
+# Comments (Giscus)
+# --------------------------------------
+comments:
+  use: Giscus
+  text: true
+  lazyload: false
+  count: false
+  card_post_count: false
+
+giscus:
+  repo: Alex-tangt/alex-tangt.github.io
+  repo_id:
+  category_id:
+  light_theme: light
+  dark_theme: dark_dimmed
+  js:
+  option:
+
+# --------------------------------------
+# Code Blocks
+# --------------------------------------
+code_blocks:
+  theme: light
+  macStyle: false
+  height_limit: false
+  word_wrap: false
+  copy: true
+  language: true
+  shrink: false
+  fullpage: false
+
+# --------------------------------------
+# Effects / Beautify
+# --------------------------------------
+rounded_corners_ui: true
+display_mode: light
+
+# --------------------------------------
+# Inject (custom head/bottom)
+# --------------------------------------
+inject:
+  head:
+  bottom:
+
+# --------------------------------------
+# CDN
+# --------------------------------------
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: true
