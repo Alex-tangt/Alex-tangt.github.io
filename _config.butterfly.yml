@@ -223,8 +223,8 @@ comments:
 
 giscus:
   repo: Alex-tangt/alex-tangt.github.io
-  repo_id:
-  category_id:
+  repo_id: R_kgDOTeACIw
+  category_id: DIC_kwDOTeACI84DBk0O
   light_theme: light
   dark_theme: dark_dimmed
   js:
