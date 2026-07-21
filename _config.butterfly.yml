@@ -28,9 +28,9 @@ social:
 # --------------------------------------
 # Image Settings
 # --------------------------------------
-favicon: /img/favicon.png
+favicon: /img/avatar.jpg
 avatar:
-  img: /img/avatar.png
+  img: /img/avatar.jpg
   effect: false
 
 disable_top_img: false
