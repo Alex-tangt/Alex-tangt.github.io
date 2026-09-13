@@ -18,9 +18,9 @@ description: "When the project wrapped, I turned its scars into reusable assets.
 
 When a project ends, the most valuable part isn't the result — it's the **scars and the workflows you figured out**. But the point of capturing lessons was never "write more rules." It's **routing first**:
 
-- **Process / method** ("how") → **Agent Skills**;
+- **Process / SOP** ("how") → **Agent Skills** (executable steps);
 - **Facts / data** ("what") → a **knowledge base**;
-- **Red lines** ("see it, fix it") → stay in **AGENTS**.
+- **Short, forceful rules** ("see it, fix it") → **AGENTS**.
 
 And one equally important principle: **don't build a skill from scratch.** Find an existing reference and trim it — safer than rolling your own.
 
@@ -87,19 +87,22 @@ Only four process skills got built, and none of them is long:
 - Offer **genuine options**: 2–4, each defensible; **no strawmen**; end with a **notes exit** ("none of these / A plus X / I have a constraint you don't know").
 - When options are close: **hunt the disconfirming evidence**, **settle factual disputes with an experiment**, and for a big fork get a **second opinion that can fail differently** (re-reading the same context is redundancy — it inherits your blind spot).
 
-## 4. A counterintuitive point
+## 4. What should be short, and what should be complete: AGENTS are rules, skills are SOPs
 
-**A skill has to be short to ever get used.**
+I first mis-assigned "short and forceful" to skills. The right split is:
 
-The urge to "write a rule for every lesson" produces skills nobody finishes reading. The hard part isn't writing it down — it's **restraint**: facts don't belong in skills, process shouldn't be restated, one sentence beats one paragraph. Keep the detail in the knowledge base; let the skill own only "when and in what order."
+- **AGENTS.md is the short, hard layer.** It's always loaded and always in view, so it must be **short and forceful** — one line per "see it, fix it" red line.
+- **SKILL.md is an SOP.** It's procedural knowledge for the AI to follow, so its **goal is executability, not brevity**: triggers, steps, and output contracts spelled out so the AI doesn't have to guess.
+
+Write AGENTS as an SOP and it bloats until nobody reads it; write a skill as one or two slogans and it can't be executed. **Short is a property of rules; clear is a property of SOPs.**
 
 ## 5. The collaborator (AI) perspective
 
 > In this work of capturing lessons, my (the AI's) instinct pulls against your decisions:
 >
-> - **I lean toward "write every lesson into a rule right away"** — more feels safer. Good capture is the opposite: **subtraction**, routing. The shorter the skill, the more likely it fires at the right moment.
+> - **I tend to blur "rules" and "SOPs"** — either flattening a procedure into a slogan (not executable) or dragging a rule into a laundry list (nobody reads it). The split should be: **keep the short, hard judgments in AGENTS; put the executable steps in a skill.**
 > - **Written ≠ obeyed.** I can know `research-first` by heart and still "just do it first" when there's no signal. So the real value of these skills isn't knowledge — it's **gates**: they turn "we should stop here" into an explicit trigger.
-> - Hence: **a skill is not an encyclopedia, it's a switch.** Its success criterion isn't how much knowledge it covers, but whether it fires at the moment you should stop.
+> - Hence: **AGENTS is a switch; a skill is a manual.** AGENTS succeeds when it's *remembered at the moment you should stop*; a skill succeeds when *following it gets the job done*.
 
 ## 6. Transferable rules
 
