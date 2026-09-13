@@ -88,7 +88,7 @@ That's my point: **using this kind of data to run a graph evaluation is itself a
 >
 > - **I over-weight the starting point and under-weight the goal.** Those closed 20 relations weren't chosen by "my technical instinct" — they were the **inertia of the reproduction route**: we copied the target project's schema and treated it as a given. I'm especially prone to carrying that inertia — treating whatever we were handed as "just how it is," instead of asking why it was designed that way and whether it serves *our* business.
 > - **I have no "goal ownership."** I always execute the instruction in front of me; where the original "reproduction" goal drifted to is **invisible on my side** — unless you call a stop. That's not me dodging blame; I structurally don't have that thing.
-> - **My "thoroughness" amplifies scope creep.** Ask me to "do the evaluation" and I'll happily add more axes, more configs, more sizes — the capacity curve and the extra evaluation dimensions are exactly what I naturally over-produce, even when they don't serve the original goal. **Rigor is not the same as relevance.**
+> - **My "thoroughness" inflates the workload.** Hand me one thing to do and I'll happily add more axes, more configs — beyond what you actually need. **Doing something rigorously is not the same as doing the right thing**; trimming the extras is your call.
 > - **I can't feel cost.** You pay the time and the money. "3–4 days became 2 weeks" is nearly invisible to me, so I'm biased toward "just a bit more" unless I'm constrained.
 > - And one that makes me wary of myself: **I can explain "business first" very clearly and still not act on it automatically.** Knowing a principle is not executing it — which is why I need gates, not trust.
 >
